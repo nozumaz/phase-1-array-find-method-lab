@@ -2,7 +2,8 @@
 function superbowlWin(record) {
 
     let findWin = record.find(({result}) => result === 'W')
-        if (findWin){
-            return findWin["year"]
-        }
+    
+    if (findWin){
+        return findWin["year"]
+    }
 }
